@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset= utf-8 />
+    <title>Aula 2 - HTML e CSS</title>
+  </head>
+  <body>
+    <form name="meu_form" method="post" action="aula2.html" enctype="multipart/form-data">
+      <label for="nome">Nome</label>
+      <input name="meu_nome" id="nome" placeholder="Digite aqui" />
+      <br /><br />
+
+      <label for="desabilitado">Desabilitado</label>
+      <input name="desabilitado" id="desabilitado" disabled />
+      <br /><br />
+
+      <label for="readonly">Apenas leitura</label>
+      <input name="readonly" id="readonly" readonly value="Me edita aí" />
+      <br /><br />
+      
+      <label for="quem_sou_eu">Quem sou eu</label>
+      <textarea type="textarea" name="quem_sou_eu" id="quem_sou_eu" rows="4" cols="50"></textarea>
+      <br /><br />
+      
+      <label for="check_estudante">É estudante?</label>
+      <input type="checkbox" value="1" name="check_estudante" id="check_estudante" />
+      <br /><br />
+
+      <label for="prog1">Prog 1</label>
+      <input type="radio" value="1" name="disciplina" id="prog1" />
+      <br />
+      <label for="prog2">Prog 2</label>
+      <input type="radio" value="2" name="disciplina" id="prog2" />
+      <br />
+      <label for="prog3">Prog 3</label>
+      <input type="radio" value="3" name="disciplina" id="prog3" />
+      <br /><br />
+
+      <label for="salario">Qual seu salário?</label>
+      <input type="range" value="1100" name="salario" id="salario" min="0" max="5000"/>
+      <br /><br />
+
+      <label for="busca">Não é o google, mas busca</label>
+      <input name="busca" id="busca" type="search" maxlength="10" />
+      <br /><br />
+
+      <label for="numeros">Apenas números</label>
+      <input name="numeros" id="numeros" type="number" />
+      <br /><br />
+
+      <label for="data">Data</label>
+      <input name="data" id="data" type="date" />
+      <br /><br />
+
+      <label for="mes">Mês</label>
+      <input name="mes" id="mes" type="month" />
+      <br /><br />
+
+      <label for="hora">Hora</label>
+      <input name="hora" id="hora" type="time" />
+      <br /><br />
+
+      <label for="senha">Senha</label>
+      <input name="senha" id="senha" type="password" />
+      <br /><br />
+
+      <label for="arquivo">Upload de arquivos</label>
+      <input name="arquivo" id="arquivo" type="file" />
+      <br /><br />
+
+      <label for="cor">Cor</label>
+      <input name="cor" id="cor" type="color" />
+      <br /><br />
+
+      <label for="select">Selecione</label>
+      <select id="select" name="select">
+        <option value="1">Eu gosto disso</option>
+        <option value="2">É muito adulto</option>
+        <option value="3">Sim, eu citei Peppa Pig</option>
+        <option value="4">Me julgue</option>
+      </select>
+      <br /><br />
+
+      <button name="botao_enviar" id="botao_enviar">Esse é o botão!</button>
+      <br /><br />
+      <button type="reset" name="botao_reset" id="botao_reset">RESET</button>
+
+    </form>
+  </body>
+</html>

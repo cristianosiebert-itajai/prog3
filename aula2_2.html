@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <title>Aula 02</title>
+  </head>
+  <body>
+    <a href="https://www.google.com" target="_blank">
+	  Clique aqui para ir ao Google
+	</a>
+	<br />
+	<button>Sei lá</button>
+	
+	<form
+	  action="aula2_2.html"
+	  method="get"
+	  name="form_de_teste"
+	>
+		<label for="meu_nome">Nome</label>
+		<input
+			name="meu_nome"
+			id="meu_nome"
+			placeholder="Digita ni mim"
+			maxlength="10"
+		/>
+		<br /><br />
+
+		<label for="disabled">Desligado</label>
+		<input
+			name="desligadin"
+			id="disabled"
+			value="um value qualquer"
+			disabled
+		/>
+		<br /><br />
+
+		<label for="readonly">Só ler</label>
+		<input
+			name="somente_leitura"
+			id="readonly"
+			value="tenta me editar, vai"
+			readonly
+		/>
+		<br /><br />
+
+		<label for="numeros">Apenas números</label>
+		<input
+			name="apenas_numeros"
+			id="numeros"
+			type="number"
+			min="0"
+			max="10"
+		/>
+		<br /><br />
+
+		<label for="datepicker">Data</label>
+		<input
+			name="date"
+			id="datepicker"
+			type="time"
+		/>
+		<br /><br />
+
+		<label for="senha">Senha</label>
+		<input
+			name="pass"
+			id="senha"
+			type="password"
+		/>
+		<br /><br />
+
+		<label for="arquivo">Upload</label>
+		<input
+			name="file"
+			id="arquivo"
+			type="file"
+		/>
+		<br /><br />
+
+		<label for="cor">Cor</label>
+		<input
+			name="color"
+			id="cor"
+			type="color"
+		/>
+		<br /><br />
+
+		<label for="quem_sou_eu">Quem sou eu</label>
+		<textarea
+			name="quem_sou_eu"
+			id="quem_sou_eu"
+			rows="4"cols="50">
+		</textarea>
+		<br /><br />
+
+		<label for="busca">Nome</label>
+		<input
+			name="busca"
+			id="busca"
+			placeholder="Busca ae"
+			type="search"
+		/>
+		<br /><br />
+
+		<label for="intervalo">Salário</label>
+		<input
+			name="intervalo"
+			id="intervalo"
+			type="range"
+			min="0"
+			max="5000"
+			value="1100"
+			step="100"
+		/>
+		<br /><br />
+
+		<label for="check_estudante">É estudante?</label>
+		<input
+			name="check_estudante"
+			id="check_estudante"
+			type="checkbox"
+			checked
+		/>
+		<label for="check_pimenta">Gosta de pimenta?</label>
+		<input
+			name="check_pimenta"
+			id="check_pimenta"
+			type="checkbox"
+		/>
+		<br /><br />
+
+		<label for="prog1">Prog 1</label>
+		<input checked type="radio" value="1" name="disciplina" id="prog1" />
+		<br />
+		<label for="prog2">Prog 2</label>
+		<input type="radio" value="2" name="disciplina" id="prog2" />
+		<br />
+		<label for="prog3">Prog 3</label>
+		<input type="radio" value="3" name="disciplina" id="prog3" />
+		<br /><br />
+
+		<label for="select">Selecione</label>
+		<select id="select" name="select">
+			<option value="1">Eu gosto disso</option>
+			<option value="2">É muito adulto</option>
+			<option value="3">Sim, eu citei Peppa Pig</option>
+			<option value="4">Me julgue</option>
+		</select>
+		<br /><br />
+
+		<button name="botao_enviar" id="botao_enviar">Esse é o botão!</button>
+		<br /><br />
+		<button type="reset" name="botao_reset" id="botao_reset">RESET</button>
+	</form>
+  </body>
+</html>
